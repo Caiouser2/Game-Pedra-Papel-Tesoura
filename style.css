@@ -1,0 +1,84 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    text-align: center;
+}
+
+body{
+    height:100%;
+}
+
+.title-page{
+    margin: 15px 0;
+}
+
+.emeny-options{
+    margin-right: 13%;
+}
+
+.options{
+    margin-left: 13%;
+}
+
+.align{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    width: 180px;
+    height: 180px;
+    margin:0 auto;
+
+    cursor:pointer;
+    margin-top:12px;
+}
+
+.winner{
+    margin-top: 10px;
+    font-size: 27px;
+    border-bottom: 3px solid gray;
+}
+
+@media screen and (max-width: 1070px) {
+    img{
+        width: 145px;
+        height: 145px;
+    }
+
+    .align{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+}
+
+@media screen and (max-width: 746px) {
+    img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .align{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+}
+
+@media screen and (max-width: 432px) {
+    img{
+        width: 140px;
+        height: 140px;
+    }
+
+    .align{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+}
